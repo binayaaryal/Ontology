@@ -1,0 +1,56 @@
+@prefix ns1: <https://es-doc.org/types/shared.numeric/> .
+@prefix ns2: <https://es-doc.org/types/platform.compute_pool/> .
+@prefix ns3: <https://es-doc.org/types/platform.machine/> .
+@prefix ns4: <https://es-doc.org/types/shared.online_resource/> .
+@prefix ns5: <https://es-doc.org/types/platform.nic/> .
+@prefix ns6: <https://es-doc.org/types/shared.party/> .
+@prefix ns7: <https://es-doc.org/types/platform.storage_pool/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://es-doc.org/resources/92a899ad-5e8d-4042-91f6-8a9c5d37fd37> a <https://es-doc.org/types/platform.machine> ;
+    ns3:compute_pools [ rdf:first [ a <https://es-doc.org/types/platform.compute_pool> ;
+                    ns2:accelerator_type "NVIDIA Tesla V100 SXM2 ×4" ;
+                    ns2:accelerators_per_node 4 ;
+                    ns2:clock_speed [ a <https://es-doc.org/types/shared.numeric> ;
+                            ns1:units "GHZ" ;
+                            ns1:value 3.5e+00 ] ;
+                    ns2:compute_cores_per_node 44 ;
+                    ns2:cpu_type " IBM Power9" ;
+                    ns2:memory_per_node [ a <https://es-doc.org/types/shared.numeric> ;
+                            ns1:units "GB" ;
+                            ns1:value 3.2e+02 ] ;
+                    ns2:name "Standard Nodes" ;
+                    ns2:network_cards_per_node [ rdf:first [ a <https://es-doc.org/types/platform.nic> ;
+                                    ns5:name "InfiniBand EDR " ] ] ;
+                    ns2:number_of_nodes 684 ] ] ;
+    ns3:institution <https://es-doc.org/resources/af5d8581-f354-4b5d-a6fa-ba15aeb97432> ;
+    ns3:linpack_performance [ a <https://es-doc.org/types/shared.numeric> ;
+            ns1:units "PF" ;
+            ns1:value 1.82e+01 ] ;
+    ns3:name "Lassen" ;
+    ns3:online_documentation [ rdf:first <https://computing.llnl.gov/computers/lassen> ] ;
+    ns3:operating_system "	Red Hat Enterprise Linux " ;
+    ns3:peak_performance [ a <https://es-doc.org/types/shared.numeric> ;
+            ns1:units "PF" ;
+            ns1:value 2.35e+01 ] ;
+    ns3:storage_pools [ rdf:first [ a <https://es-doc.org/types/platform.storage_pool> ;
+                    ns7:file_system_sizes ( [ a <https://es-doc.org/types/shared.numeric> ;
+                                ns1:value 2.4e+01 ] ) ;
+                    ns7:name "CZ Filsystem" ;
+                    ns7:type "GPFS" ] ] ;
+    ns3:vendor <https://es-doc.org/resources/64291735-f031-4405-8f2b-0fa8c045df88> .
+
+<https://computing.llnl.gov/computers/lassen> a <https://es-doc.org/types/shared.online_resource> ;
+    ns4:linkage "https://computing.llnl.gov/computers/lassen" ;
+    ns4:name "website" .
+
+<https://es-doc.org/resources/64291735-f031-4405-8f2b-0fa8c045df88> a <https://es-doc.org/types/shared.party> ;
+    ns6:name "IBM" .
+
+<https://es-doc.org/resources/af5d8581-f354-4b5d-a6fa-ba15aeb97432> a <https://es-doc.org/types/shared.party> ;
+    ns6:name "Lawrence Livermore National Laboratory" .
+
+_:Nf07aa5ebd527409d8ab3c24500d59062 a <https://es-doc.org/types/shared.numeric> ;
+    ns1:units "PB" .
+

@@ -1,0 +1,305 @@
+[
+  {
+    "@id": "https://es-doc.org/resources/0bc19402-f947-4624-ab15-3ea4e2d181e2",
+    "@type": [
+      "https://es-doc.org/types/platform.machine"
+    ],
+    "https://es-doc.org/types/platform.machine/compute_pools": [
+      {
+        "@id": "_:N6d7a0520ba5042cbb85c1273ac9fc24d"
+      }
+    ],
+    "https://es-doc.org/types/platform.machine/institution": [
+      {
+        "@id": "https://es-doc.org/resources/68c65dcd-c82d-4b1d-8b3f-55e672fda6d1"
+      }
+    ],
+    "https://es-doc.org/types/platform.machine/linpack_performance": [
+      {
+        "@id": "_:Naab7cabfd1b241cc8af8bf8e2de1cd1a"
+      }
+    ],
+    "https://es-doc.org/types/platform.machine/name": [
+      {
+        "@value": "Lassen"
+      }
+    ],
+    "https://es-doc.org/types/platform.machine/online_documentation": [
+      {
+        "@id": "_:Naad87673080249fab09af6b0163d03ed"
+      }
+    ],
+    "https://es-doc.org/types/platform.machine/operating_system": [
+      {
+        "@value": "\tRed Hat Enterprise Linux "
+      }
+    ],
+    "https://es-doc.org/types/platform.machine/peak_performance": [
+      {
+        "@id": "_:Nf3e6cdd93f614d90bc445087328a5c86"
+      }
+    ],
+    "https://es-doc.org/types/platform.machine/storage_pools": [
+      {
+        "@id": "_:N656d190d153e401f86fe4e58fdad7e72"
+      }
+    ],
+    "https://es-doc.org/types/platform.machine/vendor": [
+      {
+        "@id": "https://es-doc.org/resources/a45e37ed-ed18-4e22-b63a-84e628deaaac"
+      }
+    ]
+  },
+  {
+    "@id": "_:Naab7cabfd1b241cc8af8bf8e2de1cd1a",
+    "@type": [
+      "https://es-doc.org/types/shared.numeric"
+    ],
+    "https://es-doc.org/types/shared.numeric/units": [
+      {
+        "@value": "PF"
+      }
+    ],
+    "https://es-doc.org/types/shared.numeric/value": [
+      {
+        "@value": 18.2
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf3e6cdd93f614d90bc445087328a5c86",
+    "@type": [
+      "https://es-doc.org/types/shared.numeric"
+    ],
+    "https://es-doc.org/types/shared.numeric/units": [
+      {
+        "@value": "PF"
+      }
+    ],
+    "https://es-doc.org/types/shared.numeric/value": [
+      {
+        "@value": 23.5
+      }
+    ]
+  },
+  {
+    "@id": "_:N6d7a0520ba5042cbb85c1273ac9fc24d",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:N40b108546000466f95875f9e2feecda5"
+      }
+    ]
+  },
+  {
+    "@id": "_:N40b108546000466f95875f9e2feecda5",
+    "@type": [
+      "https://es-doc.org/types/platform.compute_pool"
+    ],
+    "https://es-doc.org/types/platform.compute_pool/accelerator_type": [
+      {
+        "@value": "NVIDIA Tesla V100 SXM2 ×4"
+      }
+    ],
+    "https://es-doc.org/types/platform.compute_pool/accelerators_per_node": [
+      {
+        "@value": 4
+      }
+    ],
+    "https://es-doc.org/types/platform.compute_pool/clock_speed": [
+      {
+        "@id": "_:Na3329b964711440b8f62fa029c44403d"
+      }
+    ],
+    "https://es-doc.org/types/platform.compute_pool/compute_cores_per_node": [
+      {
+        "@value": 44
+      }
+    ],
+    "https://es-doc.org/types/platform.compute_pool/cpu_type": [
+      {
+        "@value": " IBM Power9"
+      }
+    ],
+    "https://es-doc.org/types/platform.compute_pool/memory_per_node": [
+      {
+        "@id": "_:Nafafb24981454b28ba1e6380eff8ead9"
+      }
+    ],
+    "https://es-doc.org/types/platform.compute_pool/name": [
+      {
+        "@value": "Standard Nodes"
+      }
+    ],
+    "https://es-doc.org/types/platform.compute_pool/network_cards_per_node": [
+      {
+        "@id": "_:Neb420eeb05f743ac95b1496637f92ca7"
+      }
+    ],
+    "https://es-doc.org/types/platform.compute_pool/number_of_nodes": [
+      {
+        "@value": 684
+      }
+    ]
+  },
+  {
+    "@id": "_:Na3329b964711440b8f62fa029c44403d",
+    "@type": [
+      "https://es-doc.org/types/shared.numeric"
+    ],
+    "https://es-doc.org/types/shared.numeric/units": [
+      {
+        "@value": "GHZ"
+      }
+    ],
+    "https://es-doc.org/types/shared.numeric/value": [
+      {
+        "@value": 3.5
+      }
+    ]
+  },
+  {
+    "@id": "_:Nafafb24981454b28ba1e6380eff8ead9",
+    "@type": [
+      "https://es-doc.org/types/shared.numeric"
+    ],
+    "https://es-doc.org/types/shared.numeric/units": [
+      {
+        "@value": "GB"
+      }
+    ],
+    "https://es-doc.org/types/shared.numeric/value": [
+      {
+        "@value": 320.0
+      }
+    ]
+  },
+  {
+    "@id": "_:Neb420eeb05f743ac95b1496637f92ca7",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:Ne7f2a941806b405884b762484d61da4f"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne7f2a941806b405884b762484d61da4f",
+    "@type": [
+      "https://es-doc.org/types/platform.nic"
+    ],
+    "https://es-doc.org/types/platform.nic/name": [
+      {
+        "@value": "InfiniBand EDR "
+      }
+    ]
+  },
+  {
+    "@id": "_:Naad87673080249fab09af6b0163d03ed",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "https://computing.llnl.gov/computers/lassen"
+      }
+    ]
+  },
+  {
+    "@id": "_:N656d190d153e401f86fe4e58fdad7e72",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:Ne55c99e2caa345b6aa453bdb00577fca"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne55c99e2caa345b6aa453bdb00577fca",
+    "@type": [
+      "https://es-doc.org/types/platform.storage_pool"
+    ],
+    "https://es-doc.org/types/platform.storage_pool/file_system_sizes": [
+      {
+        "@id": "_:Nf5b85acb3e104afdba4d50c4f63faa36"
+      }
+    ],
+    "https://es-doc.org/types/platform.storage_pool/name": [
+      {
+        "@value": "CZ Filsystem"
+      }
+    ],
+    "https://es-doc.org/types/platform.storage_pool/type": [
+      {
+        "@value": "GPFS"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf5b85acb3e104afdba4d50c4f63faa36",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      {
+        "@id": "_:N0681ac5a4b6045e7b04c108cb0d294ca"
+      }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      {
+        "@id": "_:N9d05b6c258684fa2b605f129ed7df336"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9d05b6c258684fa2b605f129ed7df336",
+    "@type": [
+      "https://es-doc.org/types/shared.numeric"
+    ],
+    "https://es-doc.org/types/shared.numeric/units": [
+      {
+        "@value": "PB"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0681ac5a4b6045e7b04c108cb0d294ca",
+    "@type": [
+      "https://es-doc.org/types/shared.numeric"
+    ],
+    "https://es-doc.org/types/shared.numeric/value": [
+      {
+        "@value": 24.0
+      }
+    ]
+  },
+  {
+    "@id": "https://es-doc.org/resources/68c65dcd-c82d-4b1d-8b3f-55e672fda6d1",
+    "@type": [
+      "https://es-doc.org/types/shared.party"
+    ],
+    "https://es-doc.org/types/shared.party/name": [
+      {
+        "@value": "Lawrence Livermore National Laboratory"
+      }
+    ]
+  },
+  {
+    "@id": "https://es-doc.org/resources/a45e37ed-ed18-4e22-b63a-84e628deaaac",
+    "@type": [
+      "https://es-doc.org/types/shared.party"
+    ],
+    "https://es-doc.org/types/shared.party/name": [
+      {
+        "@value": "IBM"
+      }
+    ]
+  },
+  {
+    "@id": "https://computing.llnl.gov/computers/lassen",
+    "@type": [
+      "https://es-doc.org/types/shared.online_resource"
+    ],
+    "https://es-doc.org/types/shared.online_resource/linkage": [
+      {
+        "@value": "https://computing.llnl.gov/computers/lassen"
+      }
+    ],
+    "https://es-doc.org/types/shared.online_resource/name": [
+      {
+        "@value": "website"
+      }
+    ]
+  }
+]
